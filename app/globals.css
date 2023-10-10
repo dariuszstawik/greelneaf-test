@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Avenir Roman';
+  src: url('/Avenir-Roman.woff') format('woff');
+
+}
+
+body {
+  font-family: 'Avenir Roman', sans-serif;
+  @apply min-h-screen w-full overflow-x-hidden bg-gray-50 box-border text-slate-700 text-lg;  
+}
+
+h1 {
+  @apply text-4xl lg:text-5xl
+}
+
+h2 {
+  @apply text-3xl lg:text-4xl
+}
+
+h3 {
+  @apply text-xl lg:text-2xl xl:text-3xl text-secondaryGreen my-4
+}
+
+h4 {
+  @apply text-lg lg:text-xl xl:text-2xl
+}
+
+section {
+  @apply pt-32 px-10 lg:px-32;
+}
+
+p {
+  @apply text-lg leading-normal antialiased my-2;
+}
